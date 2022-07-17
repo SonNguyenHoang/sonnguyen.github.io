@@ -1,0 +1,139 @@
+.container {
+  background-color: blue;
+  border: 1px solid black;
+  padding: 0.5rem;
+  box-shadow: 0px 0px 4px 4px rgba(136, 136, 136, 0.6);
+  margin: 20px auto;
+}
+
+@media (max-width: 1192px) {
+  .container {
+    background-color: #e7f5ff;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+  }
+  .cell-2 {
+    height: auto !important;
+  }
+
+  .flex-h4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .cell-4 {
+    height: 200px !important;
+  }
+  .flex-xx {
+    justify-content: start !important;
+  }
+  .cell-5 {
+    height: auto !important;
+  }
+  .cell-1 {
+    height: auto !important;
+  }
+}
+@media (max-width: 576px) {
+  .cell-1 {
+    height: auto !important;
+  }
+  .cell-3 {
+    height: 400px !important;
+  }
+  .mobi-pd {
+    padding-top: 1rem;
+  }
+  .user-i {
+    display: none !important;
+  }
+  .flex-h4 {
+    display: block;
+  }
+  .cell-4 {
+    height: 300px !important;
+  }
+}
+
+.cell {
+  margin: 1rem;
+  background-color: #e7f5ff;
+}
+.cell__big {
+  height: auto;
+
+  height: calc(100% - 2rem);
+}
+
+.cell-1 {
+  height: 400px;
+}
+.cell-2 {
+  height: 380px;
+}
+h4 {
+  color: blue;
+  font-weight: bold;
+  border-bottom: 1px solid #adb5bd;
+}
+
+p {
+  margin: 0;
+}
+
+.border-bottom-goal {
+  border-bottom: 1px solid #dee2e6;
+}
+.blackfont {
+  color: black;
+  font-weight: 600;
+  border-bottom: none;
+}
+.flex-x {
+  display: flex;
+  gap: 2rem;
+  padding: 0 1rem 0 1rem;
+  margin: 1rem 0 1rem 0;
+}
+.user-i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-2 {
+  margin-top: 1rem;
+}
+
+.pri {
+  padding-bottom: 1rem;
+}
+
+.number-bg {
+  background-color: #d0bfff;
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid #868e96;
+  margin-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #e7f5ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-xx {
+  margin: 1rem 0 1rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.type {
+  padding: 0.5rem;
+  border-bottom: 1px dotted #74c0fc;
+}

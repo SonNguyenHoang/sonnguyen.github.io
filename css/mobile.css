@@ -1,0 +1,124 @@
+@media (max-width: 500px) {
+  /* HEADER STYLE */
+
+  .img-banner {
+    margin: 0 auto;
+    background-position: center;
+  }
+  #banner {
+    width: 500px;
+  }
+
+  header {
+    min-height: 100%;
+  }
+  #nav-bar {
+    height: 120px;
+    padding-left: 1em;
+  }
+
+  #nav {
+    margin-top: 4em;
+    flex-direction: column;
+    width: 500px;
+    height: 100px;
+    padding-bottom: 3em;
+    justify-content: center;
+    gap: 1em;
+    text-align: left;
+  }
+  a {
+    padding: 0px 0px;
+  }
+
+  #right-ava {
+    margin: 0%;
+  }
+
+  .border-side {
+    border: none;
+  }
+
+  /* INFORMATION */
+
+  #infor {
+    grid-template-columns: 1fr;
+    gap: 4em;
+  }
+
+  .bg-grey {
+    height: 46em;
+    background: linear-gradient(180deg, #f7f7f7 50%, #f1f3f5 50%);
+  }
+
+  .section-title {
+    margin: 0.5em 0px;
+    font-weight: 600;
+  }
+
+  /* JOB INFO STYLE */
+  #Job-infor {
+    display: block;
+    columns: 1;
+    width: 100%;
+    height: auto;
+  }
+
+  .item {
+    width: 100%;
+    margin-bottom: 42px;
+  }
+  .job-icon,
+  .job-icon2,
+  .job-icon3,
+  .job-icon4,
+  .job-icon5,
+  .job-icon6 {
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .skills {
+    margin-bottom: 0px;
+  }
+
+  /* CERTIFICATE */
+  .cer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+  }
+  .cer1 {
+    display: block;
+    padding: 24px 0px;
+    border-bottom: 1px solid #d6c08d;
+  }
+  .cer2 {
+    display: block;
+    border: none;
+    padding: 24px 0;
+    border-bottom: 1px solid #d6c08d;
+  }
+  .cer3 {
+    display: block;
+    padding: 24px 0 28px 0;
+  }
+  .cerdots {
+    display: none;
+  }
+
+  /* PROJECT */
+  .project-des {
+    display: flex;
+    flex-direction: column;
+  }
+  .project1,
+  .project2 {
+    max-width: 100%;
+  }
+
+  img {
+    max-width: 32%;
+  }
+}
